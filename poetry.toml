@@ -1,0 +1,5 @@
+[virtualenvs]
+# 仮想環境を構築するか
+create = true
+# 仮想環境を.venvとしてカレントディレクトリに作成するか
+in-project = true

@@ -9,3 +9,9 @@ RUN apt-get update \
 ENV LANG ja_JP.UTF-8
 ENV LANGUAGE ja_JP:ja
 ENV LC_ALL ja_JP.UTF-8
+
+COPY . .
+
+RUN curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/install-poetry.py | python -
+ENV PATH /root/.local/bin:$PATH
+RUN poetry install

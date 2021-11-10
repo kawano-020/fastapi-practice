@@ -2,4 +2,7 @@
 docker/db/volume
 
 # Python
+# pyenv
 .python-version
+# poetry
+.venv
