@@ -2,6 +2,13 @@
 
 開発環境の構築とContainer間の通信まで
 
+## DOTO: 
+* container_nameつける
+* 各項目のinstallation・使用方法を書く
+  * docker-compose (container manager)
+  * poetry (package manager)
+  * pysen (linter)
+
 ---
 
 # 環境構築
@@ -50,8 +57,3 @@ $ chmod +x .githooks/pre-commit
   * `git commit --no-verify ...`
 
 ---
-
-## DOTO: 各項目のinstallation・使用方法を書く
-* docker-compose (container manager)
-* poetry (package manager)
-* pysen (linter)
