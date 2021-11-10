@@ -15,9 +15,6 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 # pysen
-[tool.pysen-cli]
-settings_dir = "setup"
-
 [tool.pysen]
 version = "0.9"
 
@@ -37,3 +34,4 @@ mypy_ignore_packages = []
 [tool.pysen.lint.source]
   includes = ["."]
   exclude_globs = []
+  
