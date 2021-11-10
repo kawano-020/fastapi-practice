@@ -31,7 +31,7 @@ If you want to commit new changes, you can create a new branch, checkout, and co
   git commit -m 'What did you change?'
 ```
 
-※ 以下のようなメッセージが出た場合の対処
+#### ※ 以下のようなメッセージが出た場合の対処
 
 ```
 hint: The '.githooks/pre-commit' hook was ignored because it's not set as executable.
@@ -45,7 +45,7 @@ hint: You can disable this warning with `git config advice.ignoredHook false`.
 $ chmod +x .githooks/pre-commit
 ```
 
-※ pre-commitスクリプトを無視したい場合
+#### ※ pre-commitスクリプトを無視したい場合
 * commitコマンド実行時に`--no-verify`とすることで無視できます。
   * `git commit --no-verify ...`
 
