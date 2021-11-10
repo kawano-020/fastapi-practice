@@ -49,7 +49,7 @@ $ chmod +x .githooks/pre-commit
 * commitコマンド実行時に`--no-verify`とすることで無視できます。
   * `git commit --no-verify ...`
 
-#### DOTO: 各項目のinstallation・使用方法を書く
+## DOTO: 各項目のinstallation・使用方法を書く
 * docker-compose (container manager)
 * poetry (package manager)
 * pysen (linter)
