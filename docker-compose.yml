@@ -11,3 +11,12 @@ services:
       - ./docker/db/my.cnf:/etc/mysql/conf.d/my2.cnf
     ports:
       - 23306:3306
+  api:
+    build:
+      context: .
+      dockerfile: ./docker/api/Dockerfile
+    ports:
+      - 8000:8000
+    tty: true
+    depends_on:
+      - db
