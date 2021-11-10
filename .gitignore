@@ -1,8 +1,11 @@
 # Docker
 docker/db/volume
 
-# Python
-# pyenv
+# Pyenv
 .python-version
-# poetry
+
+# Poetry
 .venv
+
+# Pysen
+.mypy_cache
